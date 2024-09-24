@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #ede8dc;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.btn-me {
+  text-decoration: none;
+  transition: all ease-in-out 1s;
+  color: #d91656;
+}
+
+.btn-me:hover {
+  color: black;
+}
