@@ -86,7 +86,7 @@ header nav ul {
 
 .wrapper {
   width: 80%;
-  margin: 10rem auto;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -112,7 +112,7 @@ header nav ul {
   color: #ffffff;
   font-style: italic;
   font-size: 16px;
-  margin-bottom: 10rem;
+  /* margin-bottom: 10rem; */
 }
 
 .herobg {
@@ -121,3 +121,55 @@ header nav ul {
   box-shadow: inset 0px -250px 250px #000000;
   background-repeat: no-repeat;
 }
+
+/* Second Section styles */
+
+.second_section {
+  background-color: #c271ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_wrapper {
+  margin: 2.5rem;
+  padding: 1.5rem;
+}
+
+.quote {
+  width: 730px;
+  height: 158px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #ffffff;
+  font-family: Source Sans Pro;
+}
+
+.quote blockquote {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.quote h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.quote P {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.quote h3,
+.quote p {
+  margin-left: 3rem;
+}
+
+.quote p {
+  margin-top: -1rem;
+}
+
+/* tutorials styles */
