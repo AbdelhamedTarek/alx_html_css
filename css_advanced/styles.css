@@ -173,3 +173,68 @@ header nav ul {
 }
 
 /* tutorials styles */
+
+.tutorials {
+  width: 1228px;
+  height: 450px;
+  margin: 10rem auto;
+}
+
+.tutorials h2 {
+  text-align: center;
+  margin: 4rem;
+}
+
+.tutorials_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tutorials h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #071629;
+}
+.tutorials h4 {
+  font-size: 14px;
+  font-weight: semi-bold;
+  color: #c271ff;
+}
+
+i {
+  color: #c271ff;
+}
+
+.paragraph {
+  font-size: 14px;
+  color: #071629;
+  opacity: 50%;
+}
+
+.icon_container {
+  display: flex;
+}
+
+.tutorials_img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.person_data {
+  position: relative;
+  display: flex;
+  padding: 0.5rem;
+}
+
+.person_data h4 {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.time_paragraph {
+  position: absolute;
+  color: #c271ff;
+}
