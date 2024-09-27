@@ -238,3 +238,51 @@ i {
   position: absolute;
   color: #c271ff;
 }
+
+/* membership styles */
+
+.membership {
+  background-color: #071629;
+  color: #ffffff;
+  width: 100%;
+  margin: auto;
+}
+
+.membership h2 {
+  text-align: center;
+  padding: 3rem;
+}
+
+.membership h3 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.membership p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.membership_content {
+  width: 257px;
+  height: 153px;
+}
+
+.membership_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5rem;
+  padding: 3rem;
+}
+
+.membership button {
+  position: relative;
+  left: 45%;
+  color: #ffffff;
+  background-color: #c271ff;
+  border: none;
+  border-radius: 20px;
+  padding: 15px 15px;
+  margin: 3rem 0;
+}
