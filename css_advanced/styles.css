@@ -112,9 +112,12 @@ header nav ul {
   color: #ffffff;
   font-style: italic;
   font-size: 16px;
+  margin-bottom: 10rem;
 }
 
 .herobg {
   background-image: url(img/Object.png);
-  /* color: gray; */
+  background-size: cover;
+  box-shadow: inset 0px -250px 250px #000000;
+  background-repeat: no-repeat;
 }
