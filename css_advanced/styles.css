@@ -286,3 +286,68 @@ i {
   padding: 15px 15px;
   margin: 3rem 0;
 }
+
+/* FAQ styles */
+
+.faq {
+  width: 920px;
+  height: 707px;
+  margin: auto;
+}
+
+.faq h2 {
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 3rem;
+  padding: 1rem;
+}
+
+.faq h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: lighter;
+  color: #071629;
+  opacity: 50%;
+}
+
+.faq_content_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Footer styles */
+
+footer {
+  background-color: #071629;
+}
+
+footer i {
+  font-size: 30px;
+  color: #ffffff;
+  margin: 4rem 5rem 0 0;
+}
+
+footer img {
+  margin: 4rem 0 0 5rem;
+}
+
+.copyrights {
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: normal;
+  opacity: 35%;
+  padding: 3rem;
+}
+
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
