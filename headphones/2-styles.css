@@ -161,8 +161,8 @@ li {
 
 @media only screen and (max-width: 768px) {
   /* .header-hero-container {
-      max-width: 768px;
-    } */
+        max-width: 768px;
+      } */
 }
 @media only screen and (max-width: 600px) {
   ul {
@@ -258,7 +258,7 @@ li {
 }
 
 @media only screen and (max-width: 500px) {
-  .header-subtitle {
+  .section-subtitle {
     max-width: 400px;
   }
   .service-container {
@@ -266,5 +266,133 @@ li {
     grid-template-columns: 1fr;
     row-gap: 100px;
     margin-left: 7rem;
+  }
+}
+
+/* Our Results styles */
+
+.our-results {
+  background-image: url(images/headphones_hero_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: var(--text-color);
+  font-family: var(--font-primary);
+  text-align: center;
+}
+
+.results-title {
+  font-size: 32px;
+  font-weight: 600;
+  padding-top: 10rem;
+}
+
+.results-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 600px;
+  margin: 4rem auto;
+}
+
+.results-logo {
+  width: 180px;
+  height: 180px;
+}
+
+.our-results-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.postioning {
+  position: relative;
+}
+
+.count {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 36px;
+  position: absolute;
+  top: 40px;
+  left: 60px;
+}
+
+.results-text {
+  position: absolute;
+  font-family: var(--font-primary);
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 14px;
+  bottom: 12px;
+  left: 37px;
+}
+
+@media only screen and (max-width: 768px) {
+  .our-results {
+    max-width: 700px;
+  }
+  .our-results-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+  }
+  .postioning {
+    position: relative;
+  }
+
+  .count {
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 36px;
+    position: absolute;
+    top: 40px;
+    left: 115px;
+  }
+
+  .results-text {
+    position: absolute;
+    font-family: var(--font-primary);
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 14px;
+    bottom: 10px;
+    left: 95px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .our-results-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 60px;
+  }
+  .results-subtitle {
+    max-width: 350px;
+  }
+  .postioning {
+    position: relative;
+  }
+
+  .count {
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 36px;
+    position: absolute;
+    top: 40px;
+    left: 150px;
+  }
+
+  .results-text {
+    position: absolute;
+    font-family: var(--font-primary);
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 14px;
+    bottom: 10px;
+    left: 130px;
   }
 }
